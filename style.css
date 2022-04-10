@@ -5,7 +5,7 @@
 *::after {
   padding: 0;
   margin: 0;
-  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.2);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -56,7 +56,6 @@ p {
   justify-content: center;
   align-items: center;
   color: white;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
   background: red;
   margin-bottom: 0.5rem;
   font-weight: 700;
@@ -69,7 +68,6 @@ p {
   justify-content: center;
   align-items: center;
   color: white;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
   background: blue;
   margin-bottom: 0.5rem;
   font-weight: 700;
@@ -83,7 +81,6 @@ p {
   justify-content: center;
   align-items: flex-end;
   color: white;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
   background: green;
   margin-bottom: 0.5rem;
   font-weight: 700;
@@ -160,7 +157,7 @@ p {
   justify-content: center;
   align-items: center;
   color: white;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+
   background: red;
   margin-bottom: 0.5rem;
   font-weight: 700;
@@ -172,7 +169,7 @@ p {
   justify-content: center;
   align-items: center;
   color: white;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+
   background: blue;
   margin-bottom: 0.5rem;
   font-weight: 700;
@@ -185,11 +182,11 @@ p {
   justify-content: center;
   align-items: flex-end;
   color: white;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
   background: green;
   margin-bottom: 0.5rem;
   font-weight: 700;
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
 /* Media */
