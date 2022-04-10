@@ -34,16 +34,15 @@ p {
 
 /* Key */
 .key-desc {
-  width: 50%;
+  width: 90%;
   height: 5rem;
   position: absolute;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .align-key {
-  width: 33%;
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
