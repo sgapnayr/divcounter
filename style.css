@@ -180,3 +180,12 @@
   font-weight: 700;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
+
+/* Media */
+@media screen and (max-width: 800px) {
+  .square,
+  .circle,
+  .triangle {
+    transform: scale(0.5);
+  }
+}
