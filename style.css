@@ -1,0 +1,182 @@
+@import "./normalize.css";
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Main */
+.container {
+  width: 100%;
+  height: 100vh;
+  background: rgb(244, 244, 244);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body {
+  width: 80%;
+  height: 90vh;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Key */
+.key-desc {
+  width: 80%;
+  height: 5rem;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.align-key {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2rem;
+  margin-top: 0.5rem;
+}
+.square {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  background: red;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  transform: scale(0.7);
+}
+.circle {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  background: blue;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  border-radius: 50%;
+  transform: scale(0.7);
+}
+.triangle {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  background: green;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  transform: scale(0.7);
+}
+
+/* Content */
+.button-div {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+#button {
+  width: 50%;
+  height: 3rem;
+  border: none;
+  color: white;
+  background: rgb(198, 198, 198);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  transition: 0.2s ease-in-out all;
+  cursor: pointer;
+  margin-top: 7rem;
+}
+#button:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9);
+  transform: scale(1.05);
+}
+
+/* Div-Col's */
+.div-box {
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9rem;
+}
+.div-col1 {
+  width: 15%;
+  height: 100vh;
+  transform: translateX(-175%);
+  margin-top: 5rem;
+}
+.div-col2 {
+  width: 15%;
+  height: 100vh;
+  margin-top: 5rem;
+}
+.div-col3 {
+  width: 15%;
+  height: 100vh;
+  transform: translateX(175%);
+  margin-top: 5rem;
+}
+
+/* Box's */
+.red {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  background: red;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+.blue {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  background: blue;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  border-radius: 50%;
+}
+.green {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  background: green;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
