@@ -34,7 +34,7 @@ p {
 
 /* Key */
 .key-desc {
-  width: 90%;
+  width: 80%;
   height: 5rem;
   position: absolute;
   display: flex;
@@ -47,7 +47,7 @@ p {
   justify-content: center;
   align-items: center;
   margin: 0.2rem;
-  margin-top: 0.5rem;
+  margin-top: 2.5rem;
 }
 .square {
   width: 3rem;
@@ -60,7 +60,7 @@ p {
   background: red;
   margin-bottom: 0.5rem;
   font-weight: 700;
-  transform: scale(0.7);
+  padding: 0.4rem;
 }
 .circle {
   width: 3rem;
@@ -74,7 +74,7 @@ p {
   margin-bottom: 0.5rem;
   font-weight: 700;
   border-radius: 50%;
-  transform: scale(0.7);
+  padding: 0.4rem;
 }
 .triangle {
   width: 3rem;
@@ -88,7 +88,7 @@ p {
   margin-bottom: 0.5rem;
   font-weight: 700;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  transform: scale(0.7);
+  padding: 0.4rem;
 }
 
 /* Content */
@@ -110,7 +110,7 @@ p {
   border-radius: 5px;
   transition: 0.2s ease-in-out all;
   cursor: pointer;
-  margin-top: 7rem;
+  margin-top: 12rem;
 }
 #button:hover {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9);
@@ -125,7 +125,7 @@ p {
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin-top: 4rem;
+  margin-top: 7rem;
 }
 .div-col1 {
   width: 33%;
