@@ -34,9 +34,10 @@ p {
 
 /* Key */
 .key-desc {
-  width: 80%;
+  width: 50%;
   height: 5rem;
   position: absolute;
+
   display: flex;
   justify-content: center;
   align-items: center;
