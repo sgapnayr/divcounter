@@ -116,7 +116,7 @@
 
 /* Div-Col's */
 .div-box {
-  width: 50%;
+  width: 30%;
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -124,18 +124,18 @@
   margin-top: 9rem;
 }
 .div-col1 {
-  width: 15%;
+  width: 30%;
   height: 100vh;
   transform: translateX(-175%);
   margin-top: 5rem;
 }
 .div-col2 {
-  width: 15%;
+  width: 30%;
   height: 100vh;
   margin-top: 5rem;
 }
 .div-col3 {
-  width: 15%;
+  width: 30%;
   height: 100vh;
   transform: translateX(175%);
   margin-top: 5rem;
